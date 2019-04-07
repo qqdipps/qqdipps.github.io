@@ -1,1 +1,66 @@
+/* body */
+body{
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 300px 3fr 1fr 50px;
+  grid-template-columns: 1fr 300px;
+}
+
+/* nav */
+nav {
+  grid-area: 1 / 2 / -1 / -1;
+}
+
+nav > ul {
+  list-style-type: none;
+}
+
+nav > ul > li {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
+  padding-bottom: 2.0em;
+  padding-top: 2.0em;
+}
+
+nav > ul > li:last-of-type {
+  padding-bottom: 0;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li:hover {
+  background-image: url("../images/star.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  align-content: center;
+}
+
+/* header  */
+header {
+  grid-area: 1 / 1;
+  font-size: 2em;
+} 
+
+header .title {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+/* footer */
+footer{
+  grid-column: 1 / -1;
+  text-align: center;
+} 
+
+
+.sticky {
+  position: -wesbkit-sticky;
+  position: sticky;
+  top: 0;
+}
 

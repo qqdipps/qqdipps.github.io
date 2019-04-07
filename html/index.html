@@ -7,10 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla|Permanent+Marker|Shadows+Into+Light" rel="stylesheet">
 </head>
 <body class="home">
   <nav class="home">
-    <ul>
+    <ul class="home sticky">
       <li>
         <a href="about.html">About Me</a>
       </li>
@@ -23,22 +25,24 @@
     </ul>
   </nav>
   <header class="home">
-    <h1>Sav Close-Up:</h1>
+    <h1>Sav Close-Up: <span class="title">HOME</span> </h1>
   </header>
-  <main>
-    <img src="../images/sav.jpeg" alt="Star Software Developer">
+  <main class="home">
     <article class="home passion">
+      <div class="profile_pic">
+        <img class="home logo" src="../images/sav.png" alt="Star Software Developer">
+      </div>
       <h2>Passion:</h2>
       <p>Exploring && Tinkering to learn, understand, and grow.</p>
     </article>
     <article class="home quotes">
-      <h2>Fab Dev Quotes:</h2>
-      <section>
-        <p>"Refactor, not because you know the abstraction, but because you want to find it." </p>
-        <p>— Sandi Metz</p>
-        <p>“Programming can be fun, so can cryptography; however they should not be combined.”</p>
-        <p>— Kreitzberg and Shneiderman</p>
-      </section>
+      <h3>Fab Dev Quotes:</h3>
+      <p id="q1">“Programming can be fun, so can cryptography; however they should not be combined.”</p>
+      <p id="a1">— Kreitzberg and Shneiderman</p>
+      <!-- <p id="q2">"I had a running compiler and nobody would touch it. … they carefully told me, computers could only do arithmetic; they could not do programs."</p>
+      <p id="a2">- Rear Admiral Grace Murray Hopper</p> -->
+      <p id="q3">"Refactor, not because you know the abstraction, but because you want to find it." </p>
+      <p id="a3">— Sandi Metz</p>
     </article>
   </main>
   <footer class="home">
