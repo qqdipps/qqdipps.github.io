@@ -18,6 +18,15 @@ article.passion {
   font-size: 3em;
 }
 
+/* article.passion:hover {
+    background-color: aqua;
+  animation-name: home;
+  animation-duration: 7s;
+  animation-delay: 2s;
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate
+} */ 
+
 .passion p {
   font-family: 'Shadows Into Light', cursive;
   font-style: bold;
