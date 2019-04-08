@@ -3,17 +3,94 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Code-Journal</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/home.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/code-journal.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla|Permanent+Marker|Shadows+Into+Light" rel="stylesheet">
 </head>
-<body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="portfolio.html">Portfolio</a>
+<body class="home">
+  <nav class="home">
+    <ul class="home sticky">
+      <li>
+        <a href="about.html">About Me</a>
+      </li>
+      <li>
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      <li>
+       <a href="code-journal.html">Code Journal</a>
+      </li>
+    </ul>
   </nav>
-  
+  <header class="home sticky">
+    <h1>Sav Close-Up: <span class="title">HOME</span> </h1>
+  </header>
+  <main class="home">
+    <article class="home passion color_change sticky">
+      <div class="profile_pic">
+        <img class="home logo color_change" src="../images/sav.png" alt="Star Software Developer">
+      </div>
+      <h2>Passion: <span class="hide">Software Engineering!</span></h2>
+      <p>Exploring && Tinkering to learn, understand, and grow.</p>
+    </article>
+    <article class="topics">
+      <h2>Recent Lecture Topics:</h2>
+      <p> WEEK 1 & 1.5 (SNOWPOCALYPSE)<br>
+      02-06-19: NOS <br>
+      02-07-19: precedence; parse tree; case; methods; scope; <br>
+      02-08-19: hwmk subissions; git; array; hash; <br>
+      02-14-19: enumerable <br>
+      </p>
+      <p>
+      WEEK 2 <br>
+      02-19-19: git; gem; exceptions; pair programming <br>
+      02-20-19: minitest; TDD; git cont; <br>
+      02-21-19: vs debugger; keyword args & default params; More Conditionals; <br>
+      02-22-19: .gitignore; git menu keys; <br>
+      </p>
+      <p>
+      WEEK 3 <br>
+      02-25-19: intro to OOP; classes; <br>
+      02-26-19: classes/objects vs hashes; hashes re-visit; <br>
+      02-27-19: CSV as DB; class methods; self <br>
+      </p>
+      <p>
+      WEEK 4 <br>
+      03-03-19: inheritance; <br>
+      03-04-19: UML; regex; abstract class; polymorphism; template methods <br>
+      03-06-19: References and Values <br>
+      03-07-19: Exception Handling; custom exceptions; <br>
+      </p>
+      <p>
+      WEEK 5 <br>
+      03-11-19: user stories; SimpleCov; Guard; spec_helper; <br>
+      03-12-19: regex; <br>
+      03-13-19: scripting; <br>
+      </p>
+      <p>
+      WEEK 6 <br>
+      03-18-19: web, HTTP, API (intro); HTTParty; APIs and Authorization; <br>
+      03-19-19: Testing APIs; VCR; <br>
+      03-20-19: Commands and Queries; Get/POST; Postman <br>
+      03-21-19: The MVC Pattern; <br>
+      </p>
+      <p>
+      WEEK 7 -  BREAK WEEK <br>
+      </p>
+      <p>
+      WEEK 8 <br>
+      04-01-19: web(intro); html(intro); Sectioning Elements; CSS(intro) <br>
+      04-02-19: Attributes, Classes & IDs; CSS Selectors; Cascade & Inheritance; Box Model, Developer Tools & Default Styles <br>
+      04-03-19: flex; grid; (ABSENT) <br>
+      04-04-19: HTML Forms <br>
+      </p>
+    </article>
+  </main>
+  <footer class="home">
+    &copy; 2019, Sav Dippolito 
+  </footer>
 </body>
 </html>

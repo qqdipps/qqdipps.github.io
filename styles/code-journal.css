@@ -1,0 +1,9 @@
+article.topics {
+  display: flex;
+  flex-flow: column-reverse wrap;
+  margin-left: 15px;
+}
+
+article.topics > h2 {
+  order: 1;
+}
