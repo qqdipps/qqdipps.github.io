@@ -3,34 +3,82 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Portfolio</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/home.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/portfolio.css">
   <link href="https://fonts.googleapis.com/css?family=Karla|Permanent+Marker|Shadows+Into+Light" rel="stylesheet">
 </head>
-<body>
+<body class="home">
   <nav class="home">
-      <ul class="home sticky">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About Me</a>
-        </li>
-        <li>
-          <a href="code-journal.html">Code Journal</a>
-        </li>
-      </ul>
-    </nav>
+    <ul class="home sticky">
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About<br>Me</a>
+      </li>
+      <li>
+       <a href="code-journal.html">Code Journal</a>
+      </li>
+    </ul>
+  </nav>
   <header class="home sticky">
-      <h1>Sav Close-Up: <span class="title">PORTFOLIO</span> </h1>
+    <h1>Sav Close-Up: <span class="title">Portfolio</span> </h1>
   </header>
-  <main>
-
+  <main class="home">
+    <article class="home passion color_change sticky">
+      <div class="profile_pic">
+        <img class="home logo color_change" src="../images/sav.png" alt="Star Software Developer">
+      </div>
+      <h2>Passion: <span class="hide">Software Engineering!</span></h2>
+      <p>Exploring && Tinkering to learn, understand, and grow.</p>
+    </article>
+    <article class="home projects">
+      <h3>Awesome Projects:</h3>
+      <section class="hotel">
+          <a href= https://github.com/qqdipps/slack-cli><h4>SLACK-CLI</h4></a>
+          <p>Designed a command line application that interacts with the Slack API.</p>
+          <ul>
+            <li>
+              <p>Sent requests to and received responses from an API</p>
+            </li>
+            <li>
+              <p>Worked with data from an external source</p>
+            </li>
+            <li>
+             <p>Mocked an external dependency during testing</p>
+            </li>
+            <li>
+              <p>Designed and implemented a program using inheritance</p>
+            </li>
+          </ul>
+        </section>
+      <section class="hotel">
+        <a href="https://github.com/qqdipps/hotel"><h4>HOTEL</h4></a>
+        <p>Designed a system used for managing bookings for a hotel using object-oriented programming design principles.</p>
+        <ul>
+          <li>
+            <p>Designed a system using object-oriented principles</p>
+          </li>
+          <li>
+            <p>Created and instantiated classes with attributes</p>
+          </li>
+          <li>
+           <p>Created class and instance methods within the classes</p>
+          </li>
+          <li>
+            <p>Wrote pseudocode and created tests to drive the creation of the code</p>
+          </li>
+        </ul>
+      </section>
+      
+    </article>
   </main>
   <footer class="home">
-      &copy; 2019, Sav Dippolito 
+    &copy; 2019, Sav Dippolito 
   </footer>
 </body>
 </html>

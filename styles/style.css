@@ -17,17 +17,20 @@ nav {
 
 nav > ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
 }
 
 nav > ul > li {
   font-family: 'Permanent Marker', cursive;
   font-size: 3em;
   padding-bottom: 2.0em;
-  padding-top: 2.0em;
+  padding-top: 2.4em;
 }
 
 nav > ul > li:last-of-type {
-  padding-bottom: 0;
+  padding-bottom: 0px;
 }
 
 nav > ul > li > a {
@@ -40,6 +43,7 @@ nav > ul > li:hover {
   background-repeat: no-repeat;
   background-position: 50%;
   align-content: center;
+  margin-right: 80px;
 }
 
 /* header  */

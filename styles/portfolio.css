@@ -1,0 +1,14 @@
+.projects ul {
+  list-style-type: square;
+}
+
+article.projects {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 2em;
+}
+
+.projects  {
+  border-style: solid;
+}
+

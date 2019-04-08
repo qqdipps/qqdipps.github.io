@@ -1,9 +1,14 @@
 article.topics {
   display: flex;
+  font-size: 1.5em;
   flex-flow: column-reverse wrap;
   margin-left: 15px;
+  
 }
 
 article.topics > h2 {
   order: 1;
 }
+
+
+
