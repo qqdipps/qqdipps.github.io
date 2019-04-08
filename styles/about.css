@@ -1,4 +1,56 @@
-body.home.about {
-  font-size: 1em;
-  
+section.about_articles {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 600px 1fr;
+  font-size: 2em;
+}
+
+section.about_articles > * {
+  grid-column: 1;
+}
+
+section.about_articles h2 {
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 15px;
+}
+
+section.about_articles p {
+  margin-left: 30px;
+}
+
+.about.experiance img{
+  width: 500px;
+}
+
+.about.experiance a {
+  display: inline;
+}
+
+
+.mantra.text::before {
+  content: "\"";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3em;
+}
+
+.mantra.text::after {
+  content: "\"";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3em;
+}
+
+ .mantra.self::before {
+  content: "-";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3em;
+}
+
+.mantra.self{
+  text-align: right;
+  margin-top: -35px;
+  margin-right: 15px;
+}
+
+.italic-general{
+  font-style: italic;
 }

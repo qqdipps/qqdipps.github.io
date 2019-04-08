@@ -24,7 +24,7 @@ article.passion {
 article.passion > h2:hover .hide {
   display: inline;
   font-family: 'Permanent Marker', cursive;
-  font-size: .6em;
+  font-size: .4em;
   text-align: center;
 }
 
@@ -36,7 +36,8 @@ article.passion > h2:hover .hide {
 }
 
 .passion > h2 {
-  margin-top: -100px
+  margin-top: -100px;
+  
 }
 
 .quotes {
