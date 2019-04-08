@@ -33,11 +33,12 @@ article.passion > h2:hover .hide {
   font-style: bold;
   margin-top: -75px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .passion > h2 {
   margin-top: -100px;
-  
+
 }
 
 .quotes {

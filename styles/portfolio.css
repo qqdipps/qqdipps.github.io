@@ -9,6 +9,37 @@ article.projects {
 }
 
 .projects  {
-  border-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
 }
 
+article.passion.border {
+  border-bottom-style: solid;
+}
+
+article.projects a {
+  text-decoration: none;
+  /* font-family: 'Shadows Into Light', cursive; */
+  color: black;
+  font-size: 1.3em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+article.projects a:hover {
+  text-decoration: underline;
+  color: rgb(2, 97, 97);
+}
+
+article.projects section > p {
+  margin: 0;
+}
+
+article.projects li > p {
+  margin-top: -1em;
+}
+
+article.projects li:first-of-type {
+  padding-top: 0.5em;
+}
