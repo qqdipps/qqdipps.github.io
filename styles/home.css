@@ -1,0 +1,99 @@
+img.home.logo {
+  float: left;
+  background-color: aqua;
+  height: 600px;
+}
+
+/* pic with sam */
+.profile_pic:hover {
+  content: url("../images/samsav.png");
+  float: left;
+  filter: grayscale(25);
+  height: 600px;
+  width: 400px;
+}
+
+
+article.passion {
+  background-color: aqua;
+  font-size: 3em;
+}
+
+
+/* Shows Software Engineering on hover of passion */
+article.passion > h2:hover .hide {
+  display: inline;
+  font-family: 'Permanent Marker', cursive;
+  font-size: .6em;
+  text-align: center;
+}
+
+.passion p {
+  font-family: 'Shadows Into Light', cursive;
+  font-style: bold;
+  margin-top: -75px;
+  text-align: center;
+}
+
+.passion > h2 {
+  margin-top: -100px
+}
+
+.quotes {
+  display: grid;
+  grid-template-columns: 350px 200px 1fr;
+  grid-template-rows: 100px repeat(4, 1fr 100px);
+  font-size: 2em;
+  margin-left: 2em;
+
+}
+
+.quotes h3 {
+  font-family: 'Permanent Marker', cursive;
+  grid-column: 1 / -1;
+  margin-left: 15px;
+}
+
+#q1, #q2, #q3, #q4 {
+  grid-column: 1 / -2;
+  grid-row: auto;
+  float: right;
+  font-style: italic;
+  margin-left: 25px;
+} 
+
+#q1::before , #q2::before , #q3::before, #q4::before {
+  content: "\" ";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+#q1::after , #q2::after , #q3::after, #q4::after {
+  content: "\" ";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3em;
+  font-style: italic;
+}
+#a1, #a2, #a3, #a4 {
+  grid-column: 2 / -1;
+  margin-top: -50px;
+}
+
+#a1::before, #a2::before, #a3::before, #a4::before {
+  content: "- ";
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+#q2 {
+  margin-top: -15px
+}
+#a1 {
+  margin-top: -65px;
+}
+
+main.home {
+  margin-bottom: -100px;
+}

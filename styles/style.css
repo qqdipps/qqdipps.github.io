@@ -1,11 +1,12 @@
 /* body */
 body{
   font-family: 'Karla', sans-serif;
+  zoom: 75%; /* Developed layout in 75% zoom in error. This is hack around to display ok at 100% */
 }
 
 body {
   display: grid;
-  grid-template-rows: 300px 3fr 1fr 50px;
+  grid-template-rows: 250px 3fr 1fr;
   grid-template-columns: 1fr 300px;
 }
 
@@ -45,6 +46,7 @@ nav > ul > li:hover {
 header {
   grid-area: 1 / 1;
   font-size: 2em;
+  margin-bottom: -1.5em;
 } 
 
 header .title {
@@ -53,15 +55,23 @@ header .title {
 
 /* footer */
 footer{
+  align-content: center;
+  background-color: whitesmoke;
   grid-column: 1 / -1;
+  font-size: 2em;
   text-align: center;
+
 } 
 
+/* Animations and COOL Stuffs */
 
 .sticky {
-  position: -wesbkit-sticky;
   position: sticky;
   top: 0;
+}
+
+.hide {
+  display: none;
 }
 
 .color_change {
@@ -75,7 +85,7 @@ footer{
 
 @keyframes home {
   0%   {background-color: aqua;}
-  40%  {background-color: lemonchiffon;}
-  60%  {background-color: greenyellow;}
+  33.333%  {background-color: lemonchiffon;}
+  66.666%  {background-color: greenyellow;}
   /* 60%  {background-color: yellow;} */
 }

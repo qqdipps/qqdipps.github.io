@@ -3,16 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>About</title>
+  <title>Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="../styles/style.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/home.css">
+  <link rel="stylesheet" type="text/css" media="screen" href="../styles/about.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla|Permanent+Marker|Shadows+Into+Light" rel="stylesheet">
 </head>
-<body>
-  <nav>
-      <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="code-journal.html">About Me</a>
-    </nav>
+<body class="home about">
+  <nav class="home">
+    <ul class="home sticky">
+      <li>
+        <a href="about.html">About Me</a>
+      </li>
+      <li>
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      <li>
+       <a href="code-journal.html">Code Journal</a>
+      </li>
+    </ul>
+  </nav>
+  <header class="home sticky about">
+    <h1>Sav Close-Up: <span class="title">ABOUT ME</span> </h1>
+  </header>
+  <main class="home about">
+    <article class="home passion color_change sticky">
+      <div class="profile_pic">
+        <img class="home logo color_change" src="../images/sav.png" alt="Star Software Developer">
+      </div>
+      <h2>Passion: <span class="hide">Software Engineering!</span></h2>
+      <p>Exploring && Tinkering to learn, understand, and grow.</p>
+    </article>
+    <article class="home about experiance">
+        <h2>Experiance:</h2>
+        <p>Currently, I am part of Cohort 11 of Ada Developers Academy.</p>
+        <p>I'm excited to graduate and join a software engineering team in the wild!</p>
+        <p>I've demonstrated years of team work and leadership through experience in clinical laboratory science, computational research, academia, and military service. </p>
+        <a href="https://www.linkedin.com/in/qqdipps/"> <img src="../images/linked.png" alt="Linkedin Logo"></a>
+    </article>
+    <article class="home about mantra"> 
+      <h2> Why I program: </h2>
+      <p> Every time my code compiles and runs I Soar. <br>
+          Every error is a foe to be slain and I CHARGE into battle with my head held high. <br>
+          Learning new things can be intimidating, <br>
+          but by taking the first steps, we power through the discomfort<br>
+          to the otherside, where feelings of joy & empowerment reside!</p>
+        <p>Sav, 2018</p>
+    </article>
+    <article class="home about hobbies">
+      <h2>Hoobies:</h2>
+      <p>Skydiving, Reading, Napping, Rollerblading... <span class="italic-general">FAST</span> & Fancy, Hanging Out at Home, Listening to Audiobooks & Podcasts, Roadtrips, Exploring, Snow Shoeing, General Badassery</p>
+    </article>
+  </main>
+  <footer class="home">
+    &copy; 2019, Sav Dippolito 
+  </footer>
 </body>
 </html>
